@@ -1,0 +1,46 @@
+
+/* Contenedor principal */
+.card {
+    display: grid;
+    grid-template-rows: auto auto;
+    border: 1px solid;
+    border-color: rgb(230, 233, 235);
+    border-radius: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    max-width: 80%;
+    margin: 0 auto;
+}
+
+/* Contenedor del header */
+.card-header {
+    display: grid;
+    grid-template-columns: 300px auto;
+}
+
+.card-header .card-photo img {
+    max-width: 300px;
+    border-radius: 20px
+
+}
+
+.card-header .card-presentation {
+    padding: 25px;
+    text-align: center;
+}
+
+.card-header .card-presentation p {
+    font-size: larger;
+}
+
+
+/* Contenedor del contenido de la card */
+.card-content {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.card-content h4 {
+    /* text-align: center; */
+}
